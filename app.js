@@ -11,5 +11,6 @@ function drawChart(){
         ['Watching Videos',5],
         ['Sleep',8],
         ['Relaxation',1],
+         ['workout',2],
      
     ])
