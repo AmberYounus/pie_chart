@@ -13,4 +13,15 @@ function drawChart(){
         ['Relaxation',1],
          ['workout',2],
      
-    ])
+    ]);
+     //set the style of chart
+     var option =
+     {
+         'title':'My Daily routine', 
+         'width':850 ,
+         'height':650        
+     }
+ 
+     var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+     chart.draw(data,option)
+ }
